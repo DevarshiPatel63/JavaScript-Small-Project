@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(135, 45 , 145, 0.51);  
+    height: 100%;   
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    font-family: cursive;
+    font-size: 4rem;
+}
+
+.container{
+    height: auto;
+    min-height: 33rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: auto;
+    align-items: center;
+}
+
+.drum{
+    margin: 15px;
+    height: 7rem;
+    width: 7rem;
+    border: solid 4px rgba(135, 45 , 145, 0.9);
+    border-radius: 10px;
+    position: relative;
+    top: 30%;
+    font-weight: bolder;    
+}
+
+button{
+    font-size: 2rem;
+    font-family: cursive;
+   
+}
+
+footer{
+    text-align: center;
+    font-family: cursive;
+    padding: 20px;
+    background-color: rgba(135, 45 , 145, 0.9);
+    font-size: 1rem;
+}
+
+.w{
+    background-image: url(d1.webp);
+   background-size: cover;
+}
+.a{
+    background-image: url(d2.webp);
+   background-size: cover;
+}
+.s{
+    background-image: url(d3.webp);
+   background-size: cover;
+}
+.d{
+    background-image: url(d4.webp);
+   background-size: cover;
+}
+.j{
+    background-image: url(d5.webp);
+   background-size: cover;
+}
+.k{
+    background-image: url(d6.webp);
+   background-size: cover;
+}
+.l{
+    background-image: url(d7.webp);
+   background-size: cover;
+}
+.press{
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
